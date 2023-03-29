@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>aula forms</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <h1>serie</h1>
+    <form action="#">
+        <label for="nome"> nome:</label>
+        <input type="text" id="nome" required>
+       
+      
+    <label for="sobrenome">sobrenome:</label>
+    <input type="text" id="sobrenome" required><br><br>
+    <label for="email">email:</label>
+    <input type="email" id="email" size="58" required><br><BR>
+    <input type="submit" value="enviar">
+
+    <br>
+    <hr>
+    <BR>
+ <p>qual serie voce mais assistiu em 2022?</p>
+ <label for="op1">how i met your mother</label>  
+<input type="radio" name="lseries" id="op1"/>
+
+<br><br>
+<label for="op2">the big bang theory</label>  
+<input type="radio" name="lseries" id="op2"/>    
+<br><BR>
+    <label for="op3"> friends</label>
+    <input type="radio" name="lseries" id="op3"><BR><BR>
+<br>
+<hr>
+<br>
+<P> quais seus streams favoritos?</P>
+<label for="op1"> netflix</label>
+<input type="checkbox" name="lseries" id="op1"><br><br>
+<label for="op2">HBO</label>
+<input type="checkbox" name="lseries" id="op2"><br><BR> 
+<label for="op3"> amazon prime</label>
+<input type="checkbox" name="lseries" id="op3"><BR><BR>
+<label for="op4">disney+</label>
+<input type="checkbox" name="lseries" id="op4">
+<br>
+<hr>
+<BR>
+    <label for="artista">selecione seu artista favorito</label>
+     
+<select name="artista" id="artista">
+    <option value="slc" hidden>selecione um artista:</option>    
+    <option value="taylor-swifts">taylor swift</option>
+    <option value="louis-tomlinson">louis tomlinson</option>
+    <option value="selena-gomez">selena gomez</option>
+    <option value="demi-lovatos">demi lovato</option>
+</select>
+<br>
+<br>
+<label for="Alb">escolha um album:</label>
+<input autocomplete="on" list="album" name="alb" id="alb" placeholder="escolha um album">
+<datalist id="album">
+    <option value="Folklore"></option>
+    <option value="Only The Braves"></option>
+    <option value="Rare"></option>
+    <option value="Dont Forget"></option>
+</datalist>
+<br> 
+<hr>
+<br>
+
+ 0<input type="range" id="valor_01" name="valor_01">50 <br>
+<label for="sugestao">deixe aqui sua sugestao: </label> <br>
+<textarea name="sugestao" id="sugestao" cols="40" rows="20" placeholder="sugestão"></textarea><br>
+   <input type="submit" value="enviar">
+</form>
+
+
+    
+</body>
+</html>
